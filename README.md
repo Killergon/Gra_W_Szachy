@@ -1,1 +1,0 @@
-No szachy noooooooooo
