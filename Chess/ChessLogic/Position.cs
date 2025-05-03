@@ -5,7 +5,7 @@
         public int Row { get; }
         public int Column { get; }
 
-        public Position(int row, int column)
+        public Position(int row, int column) //konstruktor
         {
             Row = row; 
             Column = column;
@@ -20,7 +20,7 @@
             return Player.Black;
         }
 
-        public override bool Equals(object obj)
+        public override bool Equals(object obj) //Equals & GetHashCode
         {
             return obj is Position position &&
                    Row == position.Row &&
