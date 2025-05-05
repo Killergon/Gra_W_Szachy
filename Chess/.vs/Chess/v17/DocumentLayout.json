@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\ACER\\Documents\\GitHub\\Chess\\Chess\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DB36C3AE-883D-4F09-8782-A2894B839873}|ChessUI\\ChessUI.csproj|c:\\users\\acer\\documents\\github\\chess\\chess\\chessui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{DB36C3AE-883D-4F09-8782-A2894B839873}|ChessUI\\ChessUI.csproj|solutionrelative:chessui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{DB36C3AE-883D-4F09-8782-A2894B839873}|ChessUI\\ChessUI.csproj|c:\\users\\acer\\documents\\github\\chess\\chess\\chessui\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DB36C3AE-883D-4F09-8782-A2894B839873}|ChessUI\\ChessUI.csproj|solutionrelative:chessui\\images.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB36C3AE-883D-4F09-8782-A2894B839873}|ChessUI\\ChessUI.csproj|c:\\users\\acer\\documents\\github\\chess\\chess\\chessui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{DB36C3AE-883D-4F09-8782-A2894B839873}|ChessUI\\ChessUI.csproj|solutionrelative:chessui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DB36C3AE-883D-4F09-8782-A2894B839873}|ChessUI\\ChessUI.csproj|c:\\users\\acer\\documents\\github\\chess\\chess\\chessui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,24 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Images.cs",
               "DocumentMoniker": "C:\\Users\\ACER\\Documents\\GitHub\\Chess\\Chess\\ChessUI\\Images.cs",
               "RelativeDocumentMoniker": "ChessUI\\Images.cs",
               "ToolTip": "C:\\Users\\ACER\\Documents\\GitHub\\Chess\\Chess\\ChessUI\\Images.cs",
               "RelativeToolTip": "ChessUI\\Images.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAlwCsAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAApwDAAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-03T15:13:59.85Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ACER\\Documents\\GitHub\\Chess\\Chess\\ChessUI\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ChessUI\\MainWindow.xaml",
@@ -59,8 +59,7 @@
               "RelativeToolTip": "ChessUI\\MainWindow.xaml.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-03T14:46:32.339Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-03T14:46:32.339Z"
             }
           ]
         }
