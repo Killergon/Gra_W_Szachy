@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace ChessLogic
+﻿namespace ChessLogic
 {
     public abstract class Move
     {
@@ -13,5 +7,13 @@ namespace ChessLogic
         public abstract Position ToPos { get; } //dokąd idzie
 
         public abstract void Execute(Board board);
+
+        public virtual bool IsLEgal(Board board)
+        {
+            Player player = board[FromPos].Color;
+            Board boardcopy = board.Copy();
+            Execute(boardcopy);
+            return !boardcopy.IsInCheck(player);
+        }
     }
 }

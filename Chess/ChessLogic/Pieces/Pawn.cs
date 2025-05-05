@@ -75,5 +75,14 @@
         {
             return FowardMoves(from, board).Concat(DiagonalMoves(from, board));
         }
+
+        public override bool CanCaptureOpponentKing(Position from, Board board) //sprawdanie szacha
+        {
+            return DiagonalMoves(from, board).Any(move =>
+            {
+                Piece piece = board[move.ToPos];
+                return piece != null && piece.Type == PieceType.King;
+            });
+        }
     }
 }

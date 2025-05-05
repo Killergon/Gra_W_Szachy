@@ -66,5 +66,46 @@ namespace ChessLogic
         {
             return this[pos] == null;
         }
+
+        public IEnumerable<Position> PiecePositions() //analiza i lista gdzie pionki sie znajdują
+        {
+            for (int i = 0; i < 8; i++)
+            {
+                for (int j = 0; j < 8; j++)
+                {
+                    Position pos = new Position(i, j);
+                    if (!IsEmpty(pos))
+                    {
+                        yield return pos;
+                    }
+                }
+            }
+        }
+
+        public IEnumerable<Position> PiecePositionsFor(Player player) //Sprawdzanie czy pionek danego koloru jest w danym polu na planszy
+        {
+            return PiecePositions().Where(pos => this[pos].Color == player);
+        }
+
+        public bool IsInCheck(Player player) //daje true kiedy jest szach
+        {
+            return PiecePositionsFor(player.Opponent()).Any(pos =>
+            {
+                Piece piece = this[pos];
+                return piece.CanCaptureOpponentKing(pos, this);
+            });
+        }
+
+        public Board Copy()
+        {
+            Board copy = new Board();
+
+            foreach (Position pos in PiecePositions())
+            {
+                copy[pos] = this[pos].Copy();
+            }
+
+            return copy;
+        }
     }
 }

@@ -99,14 +99,14 @@ namespace ChessUI
             }
         }
 
-        private void HandleMove(Move move)
+        private void HandleMove(Move move) //robienie ruchu
         {
             gameState.MakeMove(move);
             DrawBoard(gameState.Board);
             SetCursor(gameState.CurrentPlayer);
         }
 
-        private void OnToPositionSelected(Position pos)
+        private void OnToPositionSelected(Position pos) //przesuwanie pionku na pozycje
         {
             selectedPos = null;
             HideHighlights();
