@@ -25,7 +25,7 @@
 
             <TextBlock Grid.Row="1" Grid.ColumnSpan="2" x:Name="ReasonText"
                        Text="REASON TEXT" Style='{StaticResource TextStyle}'
-                       FontSize="16"/>
+                       FontSize="14"/>
 
             <Button Grid.Row="2" Content="OD NOWA" Style="{StaticResource ButtonStyle}"
                     Width="80" Height="30" Click="Restart_Click"/>

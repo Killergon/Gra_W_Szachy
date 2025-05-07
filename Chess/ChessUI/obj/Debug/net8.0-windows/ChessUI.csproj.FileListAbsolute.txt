@@ -23,3 +23,6 @@ C:\Users\ACER\Documents\GitHub\Chess\Chess\ChessUI\obj\Debug\net8.0-windows\refi
 C:\Users\ACER\Documents\GitHub\Chess\Chess\ChessUI\obj\Debug\net8.0-windows\ChessUI.pdb
 C:\Users\ACER\Documents\GitHub\Chess\Chess\ChessUI\obj\Debug\net8.0-windows\ChessUI.genruntimeconfig.cache
 C:\Users\ACER\Documents\GitHub\Chess\Chess\ChessUI\obj\Debug\net8.0-windows\ref\ChessUI.dll
+C:\Users\ACER\Documents\GitHub\Chess\Chess\ChessUI\obj\Debug\net8.0-windows\GameOverMenu.g.cs
+C:\Users\ACER\Documents\GitHub\Chess\Chess\ChessUI\obj\Debug\net8.0-windows\App.baml
+C:\Users\ACER\Documents\GitHub\Chess\Chess\ChessUI\obj\Debug\net8.0-windows\GameOverMenu.baml
